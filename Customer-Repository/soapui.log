@@ -1,0 +1,301 @@
+2021-05-24 08:39:15,196 WARN  [SoapUI] Missing folder [C:\Users\PrathvirajMeenkeri\Desktop\Project Framework\Customer-Repository\ext] for external libraries
+2021-05-24 08:39:15,477 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PrathvirajMeenkeri\soapui-settings.xml]
+2021-05-24 08:39:16,830 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PrathvirajMeenkeri/Desktop/Project%20Framework/Customer-Repository/customerCustomerRepositoryV1-soapui-project.xml]
+2021-05-24 08:39:17,756 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [customerCustomerRepositoryV1]
+2021-05-24 08:39:17,759 INFO  [SoapUITestCaseRunner] Running Project [customerCustomerRepositoryV1], runType = SEQUENTIAL
+2021-05-24 08:39:17,781 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CCR_SOAP_Testing]
+2021-05-24 08:39:17,814 INFO  [SoapUITestCaseRunner] running step [CCR_GetList]
+2021-05-24 08:40:11,827 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2021-05-24 08:40:11,854 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2021-05-24 08:40:11,858 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2021-05-24 08:40:11,863 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2021-05-24 08:40:11,866 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2021-05-24 08:40:11,868 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2021-05-24 08:40:11,950 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2021-05-24 08:40:11,963 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2021-05-24 08:40:11,967 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2021-05-24 08:40:11,971 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PrathvirajMeenkeri/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2021-05-24 08:40:11,974 INFO  [SchemaUtils] Loading schema types from [file:\C:\Users\PrathvirajMeenkeri\Desktop\Prathvi\IBM%20Training\API%20Middleware%20IBM%20Upskill\Project\Assignment_Projects\SOAP%20API%20WSDL%20EndPoints\SOAP%20API%20WSDL%20EndPoints\customerCustomerRepositoryV1.xml]
+2021-05-24 08:40:11,979 INFO  [SchemaUtils] Getting schema file:\C:\Users\PrathvirajMeenkeri\Desktop\Prathvi\IBM%20Training\API%20Middleware%20IBM%20Upskill\Project\Assignment_Projects\SOAP%20API%20WSDL%20EndPoints\SOAP%20API%20WSDL%20EndPoints\customerCustomerRepositoryV1.xml
+2021-05-24 08:40:13,208 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:13,209 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:13,211 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:13,212 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:40:15,142 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1Save]
+2021-05-24 08:40:15,147 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:15,148 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:15,149 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status FAILED
+2021-05-24 08:40:15,150 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response is a SOAP Fault
+2021-05-24 08:40:15,151 ERROR [SoapUITestCaseRunner] CCR_Save failed, exporting to [C:\Users\PrathvirajMeenkeri\Desktop\Project Framework\Customer-Repository\target/surefire-reports\CCR_TestSuite-CCR_SOAP_Testing-CCR_Save-0-FAILED.txt]
+2021-05-24 08:40:15,156 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CCR_SOAP_Testing], time taken: 57314ms, status: FAILED
+2021-05-24 08:40:15,550 INFO  [log] >>>>>>>TestSuite CCR_Functional_Testing Execution Started<<<<<<<<
+2021-05-24 08:40:15,574 INFO  [log] <<<<<<<<TestCase CCR_Property_PropertyTransfer Execution Started>>>>>>>>
+2021-05-24 08:40:15,577 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CCR_Property_PropertyTransfer]
+2021-05-24 08:40:15,581 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:40:15,586 INFO  [SoapUITestCaseRunner] running step [CCR_GetList]
+2021-05-24 08:40:22,396 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:22,397 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:22,399 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:22,399 INFO  [SoapUITestCaseRunner] running step [Generatemail]
+2021-05-24 08:40:22,519 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2021-05-24 08:40:22,557 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:40:36,099 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:36,100 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:36,101 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:36,104 INFO  [SoapUITestCaseRunner] running step [Transfer_id]
+2021-05-24 08:40:36,112 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:40:36,965 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:36,966 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:36,968 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:36,971 INFO  [SoapUITestCaseRunner] running step [assertion]
+2021-05-24 08:40:36,988 INFO  [log] <<<<<<<<TestCase CCR_Property_PropertyTransfer Execution Ended>>>>>>>>
+2021-05-24 08:40:36,989 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CCR_Property_PropertyTransfer], time taken: 21360ms, status: FINISHED
+2021-05-24 08:40:37,004 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Started>>>>>>>>
+2021-05-24 08:40:37,005 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CCR_Property_Expansion]
+2021-05-24 08:40:37,009 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:40:37,009 INFO  [SoapUITestCaseRunner] running step [Generatemail]
+2021-05-24 08:40:37,026 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:40:38,001 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:38,001 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:38,002 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:38,002 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:40:38,806 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:38,806 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:38,807 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:38,808 INFO  [SoapUITestCaseRunner] running step [CCR_DeleteById]
+2021-05-24 08:40:40,502 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:40,504 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:40,506 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:40,506 INFO  [SoapUITestCaseRunner] running step [CCR_GetById_Delete_Confirm]
+2021-05-24 08:40:41,264 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1GetById]
+2021-05-24 08:40:41,266 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:41,266 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:41,272 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-05-24 08:40:41,296 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Ended>>>>>>>>
+2021-05-24 08:40:41,297 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CCR_Property_Expansion], time taken: 4242ms, status: FINISHED
+2021-05-24 08:40:41,301 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [RUN_CCR_BY_SCRIPT]
+2021-05-24 08:40:41,302 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:40:42,246 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:42,247 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:42,249 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:42,252 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:40:43,012 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:43,013 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:43,013 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:43,017 INFO  [SoapUITestCaseRunner] running step [CCR_GetList]
+2021-05-24 08:40:49,133 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:49,133 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:49,139 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:49,140 INFO  [SoapUITestCaseRunner] running step [CCR_DeleteById]
+2021-05-24 08:40:52,905 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:52,905 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:52,906 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:52,908 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [RUN_CCR_BY_SCRIPT], time taken: 11574ms, status: FINISHED
+2021-05-24 08:40:52,910 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Customer_Repository]
+2021-05-24 08:40:52,910 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:40:52,912 INFO  [SoapUITestCaseRunner] running step [CCR_GetList]
+2021-05-24 08:40:59,133 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:40:59,133 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:40:59,134 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:40:59,138 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:41:00,261 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:00,262 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:00,262 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:00,263 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:41:05,173 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:05,174 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:05,175 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:05,176 INFO  [SoapUITestCaseRunner] running step [CCR_DeleteById]
+2021-05-24 08:41:06,203 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:06,207 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:06,209 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:06,212 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Customer_Repository], time taken: 13279ms, status: FINISHED
+2021-05-24 08:41:06,214 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CCR_GroovyScript]
+2021-05-24 08:41:06,218 INFO  [SoapUITestCaseRunner] running step [Execute_By_Script]
+2021-05-24 08:41:06,296 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [RUN_CCR_BY_SCRIPT]
+2021-05-24 08:41:06,298 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:41:07,251 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:07,252 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:07,254 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:07,256 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:41:07,992 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:07,993 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:07,994 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:07,996 INFO  [SoapUITestCaseRunner] running step [CCR_GetList]
+2021-05-24 08:41:13,910 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:13,910 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:13,917 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:13,920 INFO  [SoapUITestCaseRunner] running step [CCR_DeleteById]
+2021-05-24 08:41:15,092 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:15,092 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:15,093 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:15,094 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [RUN_CCR_BY_SCRIPT], time taken: 8769ms, status: FINISHED
+2021-05-24 08:41:15,095 INFO  [SoapUITestCaseRunner] running step [DataDriver_Testing]
+2021-05-24 08:41:15,364 INFO  [log] The number of rows are 2 and columns are 3 
+2021-05-24 08:41:15,376 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Customer_Repository]
+2021-05-24 08:41:15,376 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:41:15,377 INFO  [SoapUITestCaseRunner] running step [CCR_GetList]
+2021-05-24 08:41:21,286 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:21,286 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:21,288 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:21,292 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:41:22,490 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:22,491 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:22,491 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:22,492 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:41:31,144 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:31,144 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:31,145 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:31,145 INFO  [SoapUITestCaseRunner] running step [CCR_DeleteById]
+2021-05-24 08:41:32,415 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:32,420 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:32,422 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:32,424 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Customer_Repository], time taken: 17024ms, status: FINISHED
+2021-05-24 08:41:32,425 INFO  [log] FINISHED
+2021-05-24 08:41:32,426 INFO  [log] 17024
+2021-05-24 08:41:32,445 INFO  [log] 5
+2021-05-24 08:41:32,445 INFO  [SoapUITestCaseRunner] running step [JDBCRequest]
+2021-05-24 08:41:32,747 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
+2021-05-24 08:41:32,748 INFO  [SoapUITestCaseRunner] running step [DataBase_Testing]
+2021-05-24 08:41:32,814 INFO  [log] Customer Details are Email -> prathvi78@gmail.com , FirstName -> prathvi123, LastName ->meenkeri12
+2021-05-24 08:41:32,814 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Customer_Repository]
+2021-05-24 08:41:32,816 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:41:32,820 INFO  [SoapUITestCaseRunner] running step [CCR_GetList]
+2021-05-24 08:41:38,600 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:38,600 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:38,602 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:38,606 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:41:39,555 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:39,556 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:39,560 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:39,561 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:41:40,349 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:40,349 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:40,351 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:40,352 INFO  [SoapUITestCaseRunner] running step [CCR_DeleteById]
+2021-05-24 08:41:41,272 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:41,276 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:41,281 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:41,289 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Customer_Repository], time taken: 8431ms, status: FINISHED
+2021-05-24 08:41:41,293 INFO  [log] Test Step Status FINISHED
+2021-05-24 08:41:41,298 INFO  [log] Time taken to execute 8431
+2021-05-24 08:41:41,310 INFO  [log] Customer Details are Email -> prathvi80@gmail.com , FirstName -> prathvi125, LastName ->meenkeri15
+2021-05-24 08:41:41,314 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Customer_Repository]
+2021-05-24 08:41:41,315 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:41:41,316 INFO  [SoapUITestCaseRunner] running step [CCR_GetList]
+2021-05-24 08:41:47,059 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:47,059 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:47,060 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:47,064 INFO  [SoapUITestCaseRunner] running step [CCR_Save]
+2021-05-24 08:41:48,218 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:48,218 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:48,220 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:48,221 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:41:48,966 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:48,967 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:48,969 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:48,969 INFO  [SoapUITestCaseRunner] running step [CCR_DeleteById]
+2021-05-24 08:41:50,725 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:50,726 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:50,727 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:50,733 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Customer_Repository], time taken: 9393ms, status: FINISHED
+2021-05-24 08:41:50,734 INFO  [log] Test Step Status FINISHED
+2021-05-24 08:41:50,736 INFO  [log] Time taken to execute 9393
+2021-05-24 08:41:50,738 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CCR_GroovyScript], time taken: 44508ms, status: FINISHED
+2021-05-24 08:41:50,754 INFO  [log] >>>>>>>TestSuite CCR_Functional_Testing Execution Ended<<<<<<<<
+2021-05-24 08:41:50,791 INFO  [log] >>>>>>>TestSuite CCR_Functional_Testing Execution Started<<<<<<<<
+2021-05-24 08:41:50,802 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Started>>>>>>>>
+2021-05-24 08:41:50,802 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CCR_CreateOrder_Duplicate]
+2021-05-24 08:41:50,804 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:41:50,805 INFO  [SoapUITestCaseRunner] running step [Generatemail]
+2021-05-24 08:41:50,819 INFO  [SoapUITestCaseRunner] running step [CCR_CreateOrder]
+2021-05-24 08:41:51,813 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:51,813 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:51,816 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:51,817 INFO  [SoapUITestCaseRunner] running step [CCR_CreateOrder_Duplicate]
+2021-05-24 08:41:52,660 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1Save]
+2021-05-24 08:41:52,678 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:52,678 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:52,679 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2021-05-24 08:41:52,681 INFO  [SoapUITestCaseRunner] running step [Assertions]
+2021-05-24 08:41:52,705 INFO  [log] env:Sender
+2021-05-24 08:41:52,709 INFO  [log] <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">A customer with the same email address already exists in an associated website.</env:Text>
+2021-05-24 08:41:52,711 INFO  [log] true
+2021-05-24 08:41:52,728 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Ended>>>>>>>>
+2021-05-24 08:41:52,729 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CCR_CreateOrder_Duplicate], time taken: 1894ms, status: FINISHED
+2021-05-24 08:41:52,748 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Started>>>>>>>>
+2021-05-24 08:41:52,749 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CCR_Delete_Duplicate_Check]
+2021-05-24 08:41:52,751 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:41:52,753 INFO  [SoapUITestCaseRunner] running step [Generatemail]
+2021-05-24 08:41:52,777 INFO  [SoapUITestCaseRunner] running step [CCR_CreateOrder]
+2021-05-24 08:41:53,674 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:53,675 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:53,676 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:53,680 INFO  [SoapUITestCaseRunner] running step [CCR_GetById]
+2021-05-24 08:41:54,442 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:54,444 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:54,445 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:54,448 INFO  [SoapUITestCaseRunner] running step [CCR_DeleteById]
+2021-05-24 08:41:55,511 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:55,511 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:55,513 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 08:41:55,515 INFO  [SoapUITestCaseRunner] running step [CCR_GetById_Delete_Confirm]
+2021-05-24 08:41:56,278 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1GetById]
+2021-05-24 08:41:56,282 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:56,283 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:56,284 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-05-24 08:41:56,290 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2021-05-24 08:41:56,293 INFO  [SoapUITestCaseRunner] running step [Assertions]
+2021-05-24 08:41:56,318 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Ended>>>>>>>>
+2021-05-24 08:41:56,318 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CCR_Delete_Duplicate_Check], time taken: 3520ms, status: FINISHED
+2021-05-24 08:41:56,332 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Started>>>>>>>>
+2021-05-24 08:41:56,332 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CCR_Authentication_Failure]
+2021-05-24 08:41:56,333 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 08:41:56,337 INFO  [SoapUITestCaseRunner] running step [Generatemail]
+2021-05-24 08:41:56,351 INFO  [SoapUITestCaseRunner] running step [CCR_CreateOrder]
+2021-05-24 08:41:57,031 WARN  [WsdlValidator] Missing matching Fault in wsdl for bindingOperation [customerCustomerRepositoryV1Save]
+2021-05-24 08:41:57,034 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 08:41:57,035 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-05-24 08:41:57,037 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2021-05-24 08:41:57,041 INFO  [SoapUITestCaseRunner] running step [Assertions]
+2021-05-24 08:41:57,060 ERROR [SoapUI] An error occurred [assert Expected_CreateOrder == CreateOrder_Response
+       |                    |  |
+       |                    |  <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">The consumer isn't authorized to access %resources.</env:Text>
+       |                    false
+       The consumer isn't authorized to access %resources.], see error log for details
+2021-05-24 08:41:57,068 ERROR [errorlog] Assertion failed: 
+
+assert Expected_CreateOrder == CreateOrder_Response
+       |                    |  |
+       |                    |  <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">The consumer isn't authorized to access %resources.</env:Text>
+       |                    false
+       The consumer isn't authorized to access %resources.
+
+Assertion failed: 
+
+assert Expected_CreateOrder == CreateOrder_Response
+       |                    |  |
+       |                    |  <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">The consumer isn't authorized to access %resources.</env:Text>
+       |                    false
+       The consumer isn't authorized to access %resources.
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:399)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:655)
+	at Script1.run(Script1.groovy:5)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:100)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:154)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2021-05-24 08:41:57,155 ERROR [SoapUITestCaseRunner] Assertions failed, exporting to [C:\Users\PrathvirajMeenkeri\Desktop\Project Framework\Customer-Repository\target/surefire-reports\CCR_Functional_Testing_Negative_Scenarios-CCR_Authentication_Failure-Assertions-0-FAILED.txt]
+2021-05-24 08:41:57,173 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Ended>>>>>>>>
+2021-05-24 08:41:57,174 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CCR_Authentication_Failure], time taken: 807ms, status: FAILED
+2021-05-24 08:41:57,183 INFO  [log] >>>>>>>TestSuite CCR_Functional_Testing Execution Ended<<<<<<<<
+2021-05-24 08:41:57,183 INFO  [SoapUITestCaseRunner] Project [customerCustomerRepositoryV1] finished with status [FAILED] in 159415ms

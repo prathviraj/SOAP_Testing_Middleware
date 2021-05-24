@@ -1,0 +1,18 @@
+2021-05-24 09:31:29,799 INFO  [log] SKU00953
+2021-05-24 09:32:04,871 INFO  [log] SKU001107
+2021-05-24 09:32:14,370 INFO  [log] The number of rows are 4 and columns are 4 
+2021-05-24 09:32:16,623 INFO  [log] FINISHED
+2021-05-24 09:32:16,628 INFO  [log] 2175
+2021-05-24 09:32:16,679 INFO  [log] 3
+2021-05-24 09:32:18,692 INFO  [log] FINISHED
+2021-05-24 09:32:18,694 INFO  [log] 1938
+2021-05-24 09:32:18,695 INFO  [log] 3
+2021-05-24 09:32:20,704 INFO  [log] FINISHED
+2021-05-24 09:32:20,704 INFO  [log] 1963
+2021-05-24 09:32:20,706 INFO  [log] 3
+2021-05-24 09:32:21,319 INFO  [log] Order Details are Email -> prathvi6537@gmail.com , SKU -> SKU00927 , productId -> 4, qtyOrdered ->7
+2021-05-24 09:32:23,498 INFO  [log] Test Step Status FINISHED
+2021-05-24 09:32:23,499 INFO  [log] Time taken to execute 2145
+2021-05-24 09:32:23,531 INFO  [log] Order Details are Email -> prathvi6537@gmail.com , SKU -> SKU00927 , productId -> 6, qtyOrdered ->2
+2021-05-24 09:32:25,609 INFO  [log] Test Step Status FINISHED
+2021-05-24 09:32:25,614 INFO  [log] Time taken to execute 2051

@@ -1,10 +1,10 @@
-2021-05-17 12:39:34,160 WARN  [SoapUI] Missing folder [C:\Users\PrathvirajMeenkeri\Desktop\Project Framework\my-app\ext] for external libraries
-2021-05-17 12:39:34,491 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PrathvirajMeenkeri\soapui-settings.xml]
-2021-05-17 12:39:35,750 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PrathvirajMeenkeri/Desktop/Project%20Framework/my-app/Maven-Jenkins-Demo-soapui-project.xml]
-2021-05-17 12:39:36,642 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Maven Jenkins Demo]
-2021-05-17 12:39:36,648 INFO  [SoapUITestCaseRunner] Running Project [Maven Jenkins Demo], runType = SEQUENTIAL
-2021-05-17 12:39:36,705 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DataBase]
-2021-05-17 12:39:36,721 INFO  [SoapUITestCaseRunner] running step [JDBCRequest]
-2021-05-17 12:39:37,285 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
-2021-05-17 12:39:37,287 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DataBase], time taken: 549ms, status: FINISHED
-2021-05-17 12:39:37,288 INFO  [SoapUITestCaseRunner] Project [Maven Jenkins Demo] finished with status [FINISHED] in 630ms
+2021-05-23 20:45:50,340 WARN  [SoapUI] Missing folder [C:\Users\PrathvirajMeenkeri\Desktop\Project Framework\my-app\ext] for external libraries
+2021-05-23 20:45:50,781 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PrathvirajMeenkeri\soapui-settings.xml]
+2021-05-23 20:45:52,462 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PrathvirajMeenkeri/Desktop/Project%20Framework/my-app/Maven-Jenkins-Demo-soapui-project.xml]
+2021-05-23 20:45:53,630 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Maven Jenkins Demo]
+2021-05-23 20:45:53,632 INFO  [SoapUITestCaseRunner] Running Project [Maven Jenkins Demo], runType = SEQUENTIAL
+2021-05-23 20:45:53,674 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DataBase]
+2021-05-23 20:45:53,686 INFO  [SoapUITestCaseRunner] running step [JDBCRequest]
+2021-05-23 20:45:54,389 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
+2021-05-23 20:45:54,393 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DataBase], time taken: 691ms, status: FINISHED
+2021-05-23 20:45:54,393 INFO  [SoapUITestCaseRunner] Project [Maven Jenkins Demo] finished with status [FINISHED] in 754ms

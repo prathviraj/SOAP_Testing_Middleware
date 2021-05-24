@@ -1,0 +1,24 @@
+Status: FAILED
+Time Taken: 112
+Size: 0
+Timestamp: Mon May 24 08:41:57 IST 2021
+TestStep: Assertions
+Error:Assertion failed: 
+
+assert Expected_CreateOrder == CreateOrder_Response
+       |                    |  |
+       |                    |  <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">The consumer isn't authorized to access %resources.</env:Text>
+       |                    false
+       The consumer isn't authorized to access %resources.
+
+
+----------------- Messages ------------------------------
+Assertion failed: 
+
+assert Expected_CreateOrder == CreateOrder_Response
+       |                    |  |
+       |                    |  <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">The consumer isn't authorized to access %resources.</env:Text>
+       |                    false
+       The consumer isn't authorized to access %resources.
+
+error at line: 5

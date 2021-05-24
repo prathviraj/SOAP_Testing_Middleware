@@ -1,0 +1,31 @@
+2021-05-24 08:41:57,068 ERROR [errorlog] Assertion failed: 
+
+assert Expected_CreateOrder == CreateOrder_Response
+       |                    |  |
+       |                    |  <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">The consumer isn't authorized to access %resources.</env:Text>
+       |                    false
+       The consumer isn't authorized to access %resources.
+
+Assertion failed: 
+
+assert Expected_CreateOrder == CreateOrder_Response
+       |                    |  |
+       |                    |  <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">The consumer isn't authorized to access %resources.</env:Text>
+       |                    false
+       The consumer isn't authorized to access %resources.
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:399)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:655)
+	at Script1.run(Script1.groovy:5)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:100)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:154)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)

@@ -1,0 +1,67 @@
+Status: FAILED
+Time Taken: 24213
+Size: 421
+Timestamp: Mon May 24 09:22:12 IST 2021
+TestStep: CPR_Save
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: Authorization : Bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : soap.upskills.in
+Accept-Encoding : gzip,deflate
+Content-Length : 640
+Content-Type : application/soap+xml;charset=UTF-8;action="catalogProductRepositoryV1Save"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1SaveRequest>
+         <product>
+            <sku>SKU00015</sku>
+            <name>MacBook Air</name>
+            <attributeSetId>4</attributeSetId>
+            //default value 4
+            <price>100</price>
+            <typeId>simple</typeId>
+            //for value refer catalogProductTypeListV1 WSDL Endpoint
+         </product>
+      </def:catalogProductRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-UA-Compatible : IE=edge
+Cache-Control : no-store, no-cache, must-revalidate
+Server : LiteSpeed
+Connection : Keep-Alive
+Set-Cookie : PHPSESSID=b29468da98d5a06ce70810dd006b45f4; expires=Mon, 24-May-2021 04:52:12 GMT; Max-Age=3600; path=/; domain=soap.upskills.in; HttpOnly
+Expires : Thu, 19 Nov 1981 08:52:00 GMT
+Pragma : no-cache
+#status# : HTTP/1.1 200 OK
+Content-Length : 421
+Date : Mon, 24 May 2021 03:52:33 GMT
+X-Powered-By : PHP/7.2.34
+Content-Type : application/soap+xml; charset=UTF-8
+
+
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">URL key for specified store already exists.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>

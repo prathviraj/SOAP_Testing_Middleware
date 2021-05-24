@@ -1,0 +1,27 @@
+2021-05-24 08:40:15,550 INFO  [log] >>>>>>>TestSuite CCR_Functional_Testing Execution Started<<<<<<<<
+2021-05-24 08:40:15,574 INFO  [log] <<<<<<<<TestCase CCR_Property_PropertyTransfer Execution Started>>>>>>>>
+2021-05-24 08:40:36,988 INFO  [log] <<<<<<<<TestCase CCR_Property_PropertyTransfer Execution Ended>>>>>>>>
+2021-05-24 08:40:37,004 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Started>>>>>>>>
+2021-05-24 08:40:41,296 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Ended>>>>>>>>
+2021-05-24 08:41:15,364 INFO  [log] The number of rows are 2 and columns are 3 
+2021-05-24 08:41:32,425 INFO  [log] FINISHED
+2021-05-24 08:41:32,426 INFO  [log] 17024
+2021-05-24 08:41:32,445 INFO  [log] 5
+2021-05-24 08:41:32,814 INFO  [log] Customer Details are Email -> prathvi78@gmail.com , FirstName -> prathvi123, LastName ->meenkeri12
+2021-05-24 08:41:41,293 INFO  [log] Test Step Status FINISHED
+2021-05-24 08:41:41,298 INFO  [log] Time taken to execute 8431
+2021-05-24 08:41:41,310 INFO  [log] Customer Details are Email -> prathvi80@gmail.com , FirstName -> prathvi125, LastName ->meenkeri15
+2021-05-24 08:41:50,734 INFO  [log] Test Step Status FINISHED
+2021-05-24 08:41:50,736 INFO  [log] Time taken to execute 9393
+2021-05-24 08:41:50,754 INFO  [log] >>>>>>>TestSuite CCR_Functional_Testing Execution Ended<<<<<<<<
+2021-05-24 08:41:50,791 INFO  [log] >>>>>>>TestSuite CCR_Functional_Testing Execution Started<<<<<<<<
+2021-05-24 08:41:50,802 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Started>>>>>>>>
+2021-05-24 08:41:52,705 INFO  [log] env:Sender
+2021-05-24 08:41:52,709 INFO  [log] <env:Text xml:lang="en" xmlns:env="http://www.w3.org/2003/05/soap-envelope">A customer with the same email address already exists in an associated website.</env:Text>
+2021-05-24 08:41:52,711 INFO  [log] true
+2021-05-24 08:41:52,728 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Ended>>>>>>>>
+2021-05-24 08:41:52,748 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Started>>>>>>>>
+2021-05-24 08:41:56,318 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Ended>>>>>>>>
+2021-05-24 08:41:56,332 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Started>>>>>>>>
+2021-05-24 08:41:57,173 INFO  [log] <<<<<<<<TestCase CCR_CCR_Property_Expansion Execution Ended>>>>>>>>
+2021-05-24 08:41:57,183 INFO  [log] >>>>>>>TestSuite CCR_Functional_Testing Execution Ended<<<<<<<<

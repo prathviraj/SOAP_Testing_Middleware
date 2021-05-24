@@ -1,0 +1,169 @@
+2021-05-24 09:30:26,166 WARN  [SoapUI] Missing folder [C:\Users\PrathvirajMeenkeri\Desktop\Project Framework\Sales-Repository\ext] for external libraries
+2021-05-24 09:30:26,476 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PrathvirajMeenkeri\soapui-settings.xml]
+2021-05-24 09:30:27,495 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PrathvirajMeenkeri/Desktop/Project%20Framework/Sales-Repository/salesOrderRepositoryV1-soapui-project.xml]
+2021-05-24 09:30:28,380 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [salesOrderRepositoryV1]
+2021-05-24 09:30:28,383 INFO  [SoapUITestCaseRunner] Running Project [salesOrderRepositoryV1], runType = SEQUENTIAL
+2021-05-24 09:30:28,415 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [SOR_SOAP_Testing]
+2021-05-24 09:30:28,506 INFO  [SoapUITestCaseRunner] running step [SOR_GetList]
+2021-05-24 09:31:29,011 ERROR [WsdlSubmit] Exception in request: java.net.SocketTimeoutException: Read timed out
+2021-05-24 09:31:29,012 ERROR [SoapUI] An error occurred [Read timed out], see error log for details
+2021-05-24 09:31:29,016 ERROR [errorlog] java.net.SocketTimeoutException: Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at com.eviware.soapui.impl.wsdl.support.http.HttpClientSupport$SoapUIHttpRequestExecutor.doReceiveResponse(HttpClientSupport.java:147)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:633)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:454)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:754)
+	at com.eviware.soapui.impl.wsdl.support.http.HttpClientSupport$Helper.execute(HttpClientSupport.java:247)
+	at com.eviware.soapui.impl.wsdl.support.http.HttpClientSupport.execute(HttpClientSupport.java:362)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.submitRequest(HttpClientRequestTransport.java:324)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.HttpClientRequestTransport.sendRequest(HttpClientRequestTransport.java:237)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.run(WsdlSubmit.java:127)
+	at com.eviware.soapui.impl.wsdl.WsdlSubmit.submitRequest(WsdlSubmit.java:80)
+	at com.eviware.soapui.impl.wsdl.WsdlRequest.submit(WsdlRequest.java:242)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStep.run(WsdlTestRequestStep.java:419)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2021-05-24 09:31:29,244 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status UNKNOWN
+2021-05-24 09:31:29,244 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status UNKNOWN
+2021-05-24 09:31:29,245 ERROR [SoapUITestCaseRunner] SOR_GetList failed, exporting to [C:\Users\PrathvirajMeenkeri\Desktop\Project Framework\Sales-Repository\target/surefire-reports\SOR_TestSuite-SOR_SOAP_Testing-SOR_GetList-0-FAILED.txt]
+2021-05-24 09:31:29,264 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [SOR_SOAP_Testing], time taken: 60726ms, status: FAILED
+2021-05-24 09:31:29,274 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [SOR_Property_PropertyTransfer]
+2021-05-24 09:31:29,278 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 09:31:29,323 INFO  [SoapUITestCaseRunner] running step [Create_Email_Id]
+2021-05-24 09:31:29,799 INFO  [log] SKU00953
+2021-05-24 09:31:29,802 INFO  [SoapUITestCaseRunner] running step [Transfer_Email_Id]
+2021-05-24 09:31:30,109 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:03,579 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:03,580 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:03,582 INFO  [SoapUITestCaseRunner] running step [Transfer_EntityId]
+2021-05-24 09:32:03,592 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:04,749 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:04,765 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:04,765 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [SOR_Property_PropertyTransfer], time taken: 35454ms, status: FINISHED
+2021-05-24 09:32:04,774 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [SOR_Property_Expansion]
+2021-05-24 09:32:04,776 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 09:32:04,779 INFO  [SoapUITestCaseRunner] running step [Create_Email_Id]
+2021-05-24 09:32:04,871 INFO  [log] SKU001107
+2021-05-24 09:32:04,879 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:06,303 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:06,303 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:06,314 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:07,412 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:07,414 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:07,418 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [SOR_Property_Expansion], time taken: 2611ms, status: FINISHED
+2021-05-24 09:32:07,428 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Run_SOR_By_SCRIPT]
+2021-05-24 09:32:07,429 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:08,581 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:08,586 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:08,590 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:09,541 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:09,543 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:09,549 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Run_SOR_By_SCRIPT], time taken: 2093ms, status: FINISHED
+2021-05-24 09:32:09,562 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Order_Repository]
+2021-05-24 09:32:09,563 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 09:32:09,567 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:10,584 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:10,586 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:10,589 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:11,602 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:11,604 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:11,605 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Order_Repository], time taken: 2023ms, status: FINISHED
+2021-05-24 09:32:11,610 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [SOR_Groovy_Script]
+2021-05-24 09:32:11,611 INFO  [SoapUITestCaseRunner] running step [Run_By_SCRIPT]
+2021-05-24 09:32:11,715 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Run_SOR_By_SCRIPT]
+2021-05-24 09:32:11,718 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:12,888 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:12,893 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:12,898 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:13,940 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:13,941 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:13,945 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Run_SOR_By_SCRIPT], time taken: 2207ms, status: FINISHED
+2021-05-24 09:32:13,950 INFO  [SoapUITestCaseRunner] running step [Data_Driven_Testing]
+2021-05-24 09:32:14,370 INFO  [log] The number of rows are 4 and columns are 4 
+2021-05-24 09:32:14,393 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Order_Repository]
+2021-05-24 09:32:14,394 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 09:32:14,395 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:15,636 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:15,646 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:15,669 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:16,607 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:16,614 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:16,616 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Order_Repository], time taken: 2175ms, status: FINISHED
+2021-05-24 09:32:16,623 INFO  [log] FINISHED
+2021-05-24 09:32:16,628 INFO  [log] 2175
+2021-05-24 09:32:16,679 INFO  [log] 3
+2021-05-24 09:32:16,690 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Order_Repository]
+2021-05-24 09:32:16,693 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 09:32:16,696 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:17,778 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:17,780 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:17,781 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:18,656 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:18,665 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:18,682 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Order_Repository], time taken: 1938ms, status: FINISHED
+2021-05-24 09:32:18,692 INFO  [log] FINISHED
+2021-05-24 09:32:18,694 INFO  [log] 1938
+2021-05-24 09:32:18,695 INFO  [log] 3
+2021-05-24 09:32:18,701 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Order_Repository]
+2021-05-24 09:32:18,705 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 09:32:18,711 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:19,772 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:19,774 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:19,780 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:20,689 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:20,692 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:20,695 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Order_Repository], time taken: 1963ms, status: FINISHED
+2021-05-24 09:32:20,704 INFO  [log] FINISHED
+2021-05-24 09:32:20,704 INFO  [log] 1963
+2021-05-24 09:32:20,706 INFO  [log] 3
+2021-05-24 09:32:20,709 INFO  [SoapUITestCaseRunner] running step [JDBCRequest]
+2021-05-24 09:32:21,190 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
+2021-05-24 09:32:21,191 INFO  [SoapUITestCaseRunner] running step [DataBase_Testing]
+2021-05-24 09:32:21,319 INFO  [log] Order Details are Email -> prathvi6537@gmail.com , SKU -> SKU00927 , productId -> 4, qtyOrdered ->7
+2021-05-24 09:32:21,323 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Order_Repository]
+2021-05-24 09:32:21,324 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 09:32:21,325 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:22,532 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:22,535 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:22,540 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:23,484 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:23,484 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:23,489 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Order_Repository], time taken: 2145ms, status: FINISHED
+2021-05-24 09:32:23,498 INFO  [log] Test Step Status FINISHED
+2021-05-24 09:32:23,499 INFO  [log] Time taken to execute 2145
+2021-05-24 09:32:23,531 INFO  [log] Order Details are Email -> prathvi6537@gmail.com , SKU -> SKU00927 , productId -> 6, qtyOrdered ->2
+2021-05-24 09:32:23,538 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Order_Repository]
+2021-05-24 09:32:23,540 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-05-24 09:32:23,542 INFO  [SoapUITestCaseRunner] running step [SOR_Save]
+2021-05-24 09:32:24,641 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:24,642 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:24,645 INFO  [SoapUITestCaseRunner] running step [SOR_GetBySku]
+2021-05-24 09:32:25,602 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-05-24 09:32:25,602 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-05-24 09:32:25,604 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Order_Repository], time taken: 2051ms, status: FINISHED
+2021-05-24 09:32:25,609 INFO  [log] Test Step Status FINISHED
+2021-05-24 09:32:25,614 INFO  [log] Time taken to execute 2051
+2021-05-24 09:32:25,620 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [SOR_Groovy_Script], time taken: 13988ms, status: FINISHED
+2021-05-24 09:32:25,630 INFO  [SoapUITestCaseRunner] Project [salesOrderRepositoryV1] finished with status [FAILED] in 117238ms
